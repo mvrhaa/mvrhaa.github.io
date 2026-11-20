@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ruslan Murha · repositories</title>
+<meta name="description" content="Branch graph of Ruslan Murha's public repositories. Click a branch to see the repositories written in that language.">
+<meta name="color-scheme" content="dark">
+<link rel="preload" href="fonts/Figtree-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Figtree-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<main class="panel" id="panel">
+  <section class="side">
+    <h1 id="name">Ruslan Murha</h1>
+    <p class="about" id="about"></p>
+    <ul class="legend" id="legend" aria-label="Languages"></ul>
+    <p class="note" id="note">Click a branch to see its repositories.</p>
+  </section>
+  <section class="graph" id="graph" aria-label="Branch graph of repositories">
+    <svg id="lanes" aria-hidden="true"></svg>
+    <ol class="rows" id="rows" aria-live="polite"></ol>
+  </section>
+</main>
+<footer class="foot" id="foot">
+  <a href="https://github.com/mvrhaa">github.com/mvrhaa</a>
+  <span>Public repositories, updated automatically.</span>
+</footer>
+</body>
+</html>
